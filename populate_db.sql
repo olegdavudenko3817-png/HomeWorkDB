@@ -15,16 +15,16 @@ INSERT INTO client VALUES (3, 'Tesla');
 INSERT INTO client VALUES (4, 'Microsoft');
 INSERT INTO client VALUES (5, 'Netflix');
 
-INSERT INTO project VALUES (1, 1, '2024-01-01', '2024-12-01');
-INSERT INTO project VALUES (2, 2, '2023-01-01', '2025-01-01');
-INSERT INTO project VALUES (3, 3, '2024-03-01', '2024-09-01');
-INSERT INTO project VALUES (4, 4, '2022-01-01', '2024-01-01');
-INSERT INTO project VALUES (5, 5, '2024-02-01', '2024-08-01');
-INSERT INTO project VALUES (6, 1, '2023-06-01', '2024-06-01');
-INSERT INTO project VALUES (7, 2, '2024-04-01', '2025-04-01');
-INSERT INTO project VALUES (8, 3, '2022-05-01', '2023-05-01');
-INSERT INTO project VALUES (9, 4, '2024-01-01', '2024-04-01');
-INSERT INTO project VALUES (10, 5, '2023-09-01', '2024-09-01');
+INSERT INTO project VALUES (1, 'Project A', 1, '2024-01-01', '2024-12-01');
+INSERT INTO project VALUES (2, 'Project B', 2, '2023-01-01', '2025-01-01');
+INSERT INTO project VALUES (3, 'Project C', 3, '2024-03-01', '2024-09-01');
+INSERT INTO project VALUES (4, 'Project D', 4, '2022-01-01', '2024-01-01');
+INSERT INTO project VALUES (5, 'Project E', 5, '2024-02-01', '2024-08-01');
+INSERT INTO project VALUES (6, 'Project F', 1, '2023-06-01', '2024-06-01');
+INSERT INTO project VALUES (7, 'Project G', 2, '2024-04-01', '2025-04-01');
+INSERT INTO project VALUES (8, 'Project H', 3, '2022-05-01', '2023-05-01');
+INSERT INTO project VALUES (9, 'Project I', 4, '2024-01-01', '2024-04-01');
+INSERT INTO project VALUES (10, 'Project J', 5, '2023-09-01', '2024-09-01');
 
 INSERT INTO project_worker VALUES (1, 1);
 INSERT INTO project_worker VALUES (1, 2);
