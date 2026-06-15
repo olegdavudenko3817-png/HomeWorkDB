@@ -1,6 +1,6 @@
 SELECT name, salary
 FROM worker
-WHERE salary (
-	SELECT max = (salary)
+WHERE salary = (
+	SELECT MAX (salary)
 	FROM worker
 );
